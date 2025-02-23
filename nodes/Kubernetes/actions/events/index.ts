@@ -17,10 +17,10 @@ export const description: INodeProperties[] = [
     },
     options: [
       {
-        name: "fetch",
+        name: 'Fetch',
         value: "fetch",
-        description: "fetch options",
-        action: "fetch to events with kubernetes",
+        description: 'Fetch options',
+        action: 'Fetch to events with kubernetes',
       },
     ],
     default: "fetch",

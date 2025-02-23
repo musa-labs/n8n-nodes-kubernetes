@@ -15,7 +15,7 @@ export const description: INodeTypeDescription = {
     name: "Kubernetes",
   },
   inputs: [NodeConnectionType.Main],
-  outputs: [NodeConnectionType.Main],
+  outputs: ['main'],
   credentials: [
     {
       name: "kubernetesApi",
@@ -31,7 +31,7 @@ export const description: INodeTypeDescription = {
       default: "events",
       options: [
         {
-          name: "Events",
+          name: 'Event',
           value: "events",
         },
       ],

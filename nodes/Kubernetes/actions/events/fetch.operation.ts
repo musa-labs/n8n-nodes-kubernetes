@@ -13,7 +13,6 @@ export const properties: INodeProperties[] = [
     name: "namespace",
     description: "Namespace to get events from",
     type: "string",
-    required: false,
     default: "",
     placeholder: "e.g. default",
   },
