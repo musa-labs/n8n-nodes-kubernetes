@@ -1,7 +1,8 @@
 /* eslint-disable n8n-nodes-base/node-filename-against-convention */
-import { NodeConnectionType, type INodeTypeDescription } from "n8n-workflow";
+import {type INodeTypeDescription, NodeConnectionType} from "n8n-workflow";
 
 import * as events from "./events";
+
 
 export const description: INodeTypeDescription = {
   displayName: "Kubernetes",
@@ -10,7 +11,7 @@ export const description: INodeTypeDescription = {
   icon: "file:img.svg",
   version: 1,
   subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
-  description: "Consume Kubernetes API",
+  description: "Consume Kubernetes API.",
   defaults: {
     name: "Kubernetes",
   },
