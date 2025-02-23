@@ -1,1 +1,1 @@
-export * from './common.descriptions';
+export * from "./common.descriptions";

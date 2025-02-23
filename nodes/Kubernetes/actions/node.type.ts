@@ -1,7 +1,7 @@
-import type { AllEntities } from 'n8n-workflow';
+import type { AllEntities } from "n8n-workflow";
 
 type NodeMap = {
-	events: 'fetch';
+  events: "fetch";
 };
 
 export type Kubernetes = AllEntities<NodeMap>;
