@@ -37,5 +37,5 @@ export const description: INodeTypeDescription = {
       ],
     },
     ...events.description,
-  ],
+  ]
 };
